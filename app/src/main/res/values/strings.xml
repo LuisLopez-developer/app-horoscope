@@ -22,6 +22,9 @@
     <string name="aquarius">Aquarius</string>
     <string name="pisces">Picis</string>
 
+    <!-- Luck -->
+    <string name="share">Compartir</string>
+    
     <!-- Others -->
     <string name="imageSign">ImageSign</string>
     <string name="backButton">BackButton</string>
