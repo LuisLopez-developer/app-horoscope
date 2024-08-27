@@ -28,7 +28,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            resValue("string", "APPLICATION_NAME", "HoroscopoApp")
+            resValue("string", "APPLICATION_NAME", "Horoscopo App")
 
             buildConfigField("String", "BASE_URL", "\"https://newastro.vercel.app/\"")
         }
