@@ -63,4 +63,5 @@
     <!-- Others -->
     <string name="imageSign">ImageSign</string>
     <string name="backButton">BackButton</string>
+    <string name="palmistry_preview">Imagen transparente de una mano</string>
 </resources>
