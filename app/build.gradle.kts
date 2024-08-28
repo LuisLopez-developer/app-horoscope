@@ -17,7 +17,7 @@ android {
         versionCode = 1
         versionName = "1.0"
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "com.example.apphoroscopo.CustomTestRunner"
     }
 
     buildTypes {
@@ -85,6 +85,12 @@ dependencies {
     testImplementation (libs.kotlintest.runner.junit5)
     testImplementation (libs.mockk)
 
+    //UITesting
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    androidTestImplementation("androidx.test.espresso:espresso-contrib:3.6.1")
+    androidTestImplementation ("androidx.test.espresso:espresso-intents:3.6.1")
+    androidTestImplementation ("com.google.dagger:hilt-android-testing:2.48")
+    androidTestImplementation ("androidx.fragment:fragment-testing:1.6.1")
+    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.48")
 }
